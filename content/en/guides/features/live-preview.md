@@ -1,10 +1,3 @@
----
-title: Preview Mode
-description: Live Preview for target static with the preview mode
-category: features
-position: 12
----
-
 With Nuxt.js and full static you can now use live preview out of the box which will call your API or your CMS so you can see the changes live before deploying.
 
 <base-alert> Only available when using [target:static](/docs/2.x/features/deployment-targets#static-hosting) </base-alert>
