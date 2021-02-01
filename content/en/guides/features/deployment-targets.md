@@ -1,10 +1,3 @@
----
-title: Deployment Targets
-description: Deployment Targets
-position: 2
-category: features
----
-
 ## Static Hosting
 
 Nuxt.js also works as a static site generator. Statically render your Nuxt.js application and get all of the benefits of a universal app without a server. The `nuxt generate` command will generate a static version of your website. It will generate HTML for every one of your routes and put it inside of its own file in the `dist/` directory. This improves performance as well as SEO and better offline support.
