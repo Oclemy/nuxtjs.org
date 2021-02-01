@@ -1,11 +1,3 @@
----
-title: 'nuxt.render(req, res)'
-description: You can use Nuxt.js as a middleware for your Node.js server.
-menu: render
-category: internals-glossary
-position: 10
----
-
 - Type: `Function`
 - Arguments:
   1. [Request](https://nodejs.org/api/http.html#http_class_http_incomingmessage)
