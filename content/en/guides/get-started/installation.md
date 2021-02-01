@@ -1,11 +1,3 @@
----
-title: Installation
-description: Here, you will find information on setting up and running a Nuxt.js project in 4 steps.
-position: 1
-category: get-started
-csb_link: https://codesandbox.io/embed/github/nuxt-academy/guides-examples/tree/master/01_get_started/01_installation?fontsize=14&hidenavigation=1&theme=dark
----
-
 ## Prerequisites
 
 - [node](https://nodejs.org) - at least v10.13 _We recommend you have the latest LTS version installed._
