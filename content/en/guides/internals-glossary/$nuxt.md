@@ -1,10 +1,3 @@
----
-title: '$nuxt: The Nuxt.js helper'
-description: $nuxt is a helper designed to improve user experience.
-category: internals-glossary
-position: 2
----
-
 `$nuxt` is a helper designed to improve user experience.
 For more info on the Nuxt.js helper check out the [context and helpers chapter in the Concepts book](/docs/2.x/concepts/context-helpers#nuxt-the-nuxtjs-helper)
 
