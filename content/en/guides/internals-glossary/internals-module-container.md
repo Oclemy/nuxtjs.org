@@ -1,10 +1,3 @@
----
-title: 'The ModuleContainer Class'
-description: Nuxt ModuleContainer Class
-menu: Module Container
-category: internals-glossary
-position: 6
----
 
 - Source: **[core/module.js](https://github.com/nuxt/nuxt.js/blob/dev/packages/core/src/module.js)**
 
