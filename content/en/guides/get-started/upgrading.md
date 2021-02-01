@@ -1,10 +1,3 @@
----
-title: Upgrading
-description: Upgrading Nuxt.js is quick, but more involved than updating your package.json
-position: 6
-category: get-started
----
-
 > Upgrading Nuxt.js is quick, but more involved than updating your package.json
 
 If you are upgrading to Nuxt v2.14 and want to use static hosting then you will need to add [target:static](/docs/2.x/features/deployment-targets#static-hosting) to your nuxt.config.js file in order for the generate command to work properly.
