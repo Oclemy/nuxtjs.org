@@ -1,11 +1,3 @@
----
-title: 'The Renderer Class'
-description: Nuxt Renderer Class
-menu: Renderer
-category: internals-glossary
-position: 5
----
-
 - Source: **[vue-renderer/renderer.js](https://github.com/nuxt/nuxt.js/blob/dev/packages/vue-renderer/src/renderer.js)**
 
 This class is exporting a connect middleware which handles and serves all SSR and asset requests.
