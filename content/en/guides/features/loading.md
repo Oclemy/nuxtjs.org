@@ -1,70 +1,64 @@
----
-title: Loading
-description: Out of the box, Nuxt.js gives you its own loading progress bar component that's shown between routes. You can customize it, disable it or even create your own loading component.
-position: 8
-category: features
-csb_link: https://codesandbox.io/embed/github/nuxt-academy/guides-examples/tree/master/03_features/08_loading?fontsize=14&hidenavigation=1&theme=dark
 questions:
   - question: In order for the Nuxt.js loading progress bar to work what do you have to do?
     answers:
       - Nothing, it just works
       - set loading to true in the nuxt.config.js file
       - create a loading component
-    correctAnswer: Nothing, it just works
+      - correctAnswer: Nothing, it just works
   - question: Where can you modify the styles for the default progress bar?
     answers:
       - layout component
       - page component
       - nuxt.config.js
-    correctAnswer: layout component
+      - correctAnswer: layout component
   - question: In which property do you set the styles for the progress bar in the nuxt.config.js file?
     answers:
       - progress
       - loading
       - loadingBar
-    correctAnswer: loading
+      - correctAnswer: loading
   - question: What do you add in the nuxt.config.js file to disable loading?
     answers:
       - 'loadingBar: false'
       - "loading: 'none'"
       - 'loading: false'
-    correctAnswer: 'loading: false'
+      - correctAnswer: 'loading: false'
   - question: You can disable the loading on specific pages?
     answers:
       - true
       - false
-    correctAnswer: true
+      - correctAnswer: true
   - question: What do you use to programmatically start the loading bar?
     answers:
       - $nuxt.loading.start()
       - $nuxt.loading()
       - $loading.start()
-    correctAnswer: $nuxt.loading.start()
+      - correctAnswer: $nuxt.loading.start()
   - question: Which property do you use to make your progress bar continuous for when the loading takes longer than the duration?
     answers:
       - "duration: 'continuous'"
       - "loading: 'continuous'"
       - 'continuous: true'
-    correctAnswer: 'continuous: true'
+      - correctAnswer: 'continuous: true'
   - question: Which two methods are required when creating a custom loading component?
     answers:
       - start() and fail()
       - start() and finish()
       - loading() and finish()
-    correctAnswer: start() and finish()
+      - correctAnswer: start() and finish()
   - question: Once you have created your new loading.vue component how do you use it?
     answers:
       - import it into the layouts page
       - add it in the nuxt.config.js under the loading property
       - add it to the nuxt.config.js under the plugins property
-    correctAnswer: add it in the nuxt.config.js under the loading property
+      - correctAnswer: add it in the nuxt.config.js under the loading property
   - question: To add a circle spinner when Nuxt.js is using ssr:false what do you add to the loading property?
     answers:
       - 'circle: true'
       - 'spinner: circle'
       - 'name: circle'
-    correctAnswer: 'name: circle'
----
+      - correctAnswer: 'name: circle'
+
 
 Out of the box, Nuxt.js gives you its own loading progress bar component that's shown between routes. You can customize it, disable it or even create your own loading component.
 
