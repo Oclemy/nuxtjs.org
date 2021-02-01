@@ -1,10 +1,3 @@
----
-title: Commands and Deployment
-description: Nuxt.js comes with a set of useful commands, both for development and production purpose.
-position: 4
-category: get-started
----
-
 Nuxt.js comes with a set of useful commands, both for development and production purpose.
 
 ## Using in package.json
