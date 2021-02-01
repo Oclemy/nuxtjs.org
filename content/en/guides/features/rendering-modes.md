@@ -1,10 +1,3 @@
----
-title: Rendering
-description: Rendering
-position: 1
-category: features
----
-
 ## Server Side Rendered Sites and Static Sites
 
 **Server-side rendered sites** are rendered on the server each time the user requests a page, therefore a server is needed to be able to serve the page on each request.
