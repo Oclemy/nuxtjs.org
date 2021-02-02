@@ -1,12 +1,3 @@
----
-title: Auth External API (JWT)
-description: Authentication with external API service (jsonwebtoken) example with Nuxt.js
-github: auth-jwt
-csb_link: https://codesandbox.io/s/github/nuxt/nuxt.js/tree/dev/examples/auth-jwt?fontsize=14&hidenavigation=1&theme=dark
-code: https://github.com/ahadyekta/nuxt-auth-external-jwt
-category: development
-position: 303
----
 
 In the auth-routes example both the API and Nuxt start together and use one Node.js server instance. However, sometimes we want to work with an external API using a JSON web token (JWT). In this example it will be explained in a simple way.
 
