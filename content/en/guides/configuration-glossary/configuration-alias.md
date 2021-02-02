@@ -1,10 +1,4 @@
----
-title: 'The alias Property'
-description: Nuxt.js allows you to use aliases to access custom directories within your JavaScript and CSS
-menu: alias
-category: configuration-glossary
-position: 0
----
+
 
 > Nuxt.js allows you to use aliases to access custom directories within your JavaScript and CSS.
 
