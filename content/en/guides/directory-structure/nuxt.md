@@ -1,39 +1,34 @@
----
-title: .nuxt
-description: The `.nuxt` directory is the so-called *build directory*. It is dynamically generated and hidden by default. Inside the directory you can find automatically generated files when using `nuxt dev` or your build artifacts when using `nuxt build`.
-position: 1
-category: directory-structure
 questions:
   - question: What what commands is the .nuxt folder generated?
     answers:
       - nuxt start
       - nuxt generate
       - nuxt build or nuxt dev
-    correctAnswer: nuxt build or nuxt dev
+      - correctAnswer: nuxt build or nuxt dev
   - question: What property do you use to rename the nuxt folder?
     answers:
       - dir
       - build
       - buildDir
-    correctAnswer: buildDir
+      - correctAnswer: buildDir
   - question: In which file can you find your generated routes?
     answers:
       - pages.js
       - router.js
       - views.js
-    correctAnswer: router.js
+      - correctAnswer: router.js
   - question: What can you find in the components folder?
     answers:
       - nuxt components
       - custom components
       - global components
-    correctAnswer: nuxt components
+      - correctAnswer: nuxt components
   - question: The .nuxt folder is the folder you need to upload when deploying static sites.
     answers:
       - true
       - false
-    correctAnswer: false
----
+      - correctAnswer: false
+
 
 The `.nuxt` directory is the so-called _build directory_. It is dynamically generated and hidden by default. Inside the directory you can find automatically generated files when using `nuxt dev` or your build artifacts when using `nuxt build`. Modifying these files is great for debugging but remember that they are generated files and once you run the `dev` or `build` command again, anything that was saved here will be regenerated.
 
