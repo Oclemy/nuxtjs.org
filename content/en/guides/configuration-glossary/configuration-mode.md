@@ -1,10 +1,3 @@
----
-title: 'The mode Property'
-description: Change default nuxt mode
-menu: mode
-category: configuration-glossary
-position: 17
----
 
 - Type: `string`
   - Default: `universal`
