@@ -1,68 +1,61 @@
----
-title: pages
-description: The `pages` directory contains your Application Views and Routes. Nuxt.js reads all the `.vue` files inside this directory and automatically creates the  router configuration for you.
-position: 10
-category: directory-structure
-csb_link: https://codesandbox.io/embed/github/nuxt-academy/guides-examples/tree/master/04_directory_structure/11_pages?fontsize=14&hidenavigation=1&theme=dark
 questions:
   - question: In which directory do you put your page components?
     answers:
       - views
       - pages
       - vues
-    correctAnswer: pages
+      - correctAnswer: pages
   - question: To create routes you need to manually configure a router.js file
     answers:
       - true
       - false
-    correctAnswer:
+      - correctAnswer:
   - question: You can create routes with .js files and .ts files
     answers:
       - true
       - false
-    correctAnswer: true
+      - correctAnswer: true
   - question: When is asyncData called?
     answers:
       - before loading the component
       - while loading the component
       - after loading the component
-    correctAnswer: before loading the component
+      - correctAnswer: before loading the component
   - question: In what property do you add your meta tags?
     answers:
       - head
       - meta
       - metaTags
-    correctAnswer: head
+      - correctAnswer: head
   - question: Which property do you use to add a different layout to your page?
     answers:
       - layouts
       - page
       - layout
-    correctAnswer: layout
+      - correctAnswer: layout
   - question: How do you set the scrollToTop property if you want to tell Nuxt.js to scroll to the top when rendering your child route?
     answers:
       - "scrollToTop: 'scroll'"
       - 'scrollToTop: true'
       - "scroll: 'top'"
-    correctAnswer: 'scrollToTop: true'
+      - correctAnswer: 'scrollToTop: true'
   - question: How do you add the middleware/auth.js to your page?
     answers:
       - 'middleware: true'
       - "middleware: 'auth'"
       - "import auth from 'middleware/auth.js'"
-    correctAnswer: "middleware: 'auth'"
+      - correctAnswer: "middleware: 'auth'"
   - question: To set up a watcher for query strings what property do you use?
     answers:
       - watcher
       - queryWatcher
       - watchQuery
-    correctAnswer: watchQuery
+      - correctAnswer: watchQuery
   - question: Watching is disabled by default.
     answers:
       - true
       - false
-    correctAnswer: true
----
+      - correctAnswer: true
 
 The `pages` directory contains your application views and routes. Nuxt.js reads all the `.vue` files inside this directory and automatically creates the router configuration for you.
 
