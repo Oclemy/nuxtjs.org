@@ -1,10 +1,3 @@
----
-title: 'The serverMiddleware Property'
-description: Define server-side middleware.
-menu: serverMiddleware
-category: configuration-glossary
-position: 27
----
 
 - Type: `Array`
   - Items: `String` or `Object` or `Function`
