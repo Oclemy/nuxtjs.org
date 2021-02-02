@@ -1,10 +1,3 @@
----
-title: 'The vue.config Property'
-description: A config object for Vue.config
-menu: vue.config
-category: configuration-glossary
-position: 32
----
 
 - Type: `Object`
 - Default: `{ silent: !isDev, performance: isDev }`
