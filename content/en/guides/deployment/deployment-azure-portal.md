@@ -1,11 +1,3 @@
----
-title: Deploy Nuxt on Azure Portal
-description: How to deploy a Nuxt.js application on Azure Portal?
-menu: Azure Portal
-target: Server
-category: deployment
-position: 102
----
 
 ## Requirements
 
