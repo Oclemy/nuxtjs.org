@@ -1,32 +1,26 @@
----
-title: layouts
-description: Layouts are a great help when you want to change the look and feel of your Nuxt.js app. Whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-position: 7
-category: directory-structure
-csb_link: https://codesandbox.io/embed/github/nuxt-academy/guides-examples/tree/master/04_directory_structure/07_layouts?fontsize=14&hidenavigation=1&theme=dark
 questions:
   - question: You can easily rename the layouts directory without any configuration
     answers:
       - true
       - false
-    correctAnswer: false
+      - correctAnswer: false
   - question: What is the default layout page called?
     answers:
       - layout.vue
       - default.vue
       - defaultLayout.vue
-    correctAnswer: default.vue
+      - correctAnswer: default.vue
   - question: What component must you include in your layouts?
     answers:
       - <Nuxt />
       - <NuxtLink />
       - <RouterView />
-    correctAnswer: <Nuxt />
+      - correctAnswer: <Nuxt />
   - question: You can add any other component to your layout
     answers:
       - true
       - false
-    correctAnswer: true
+     -  correctAnswer: true
   - question: To add a custom layout you create a `.vue` file and add it to what folder?
     answers:
       - layout
@@ -38,29 +32,28 @@ questions:
       - "layout: 'blog'"
       - "name: 'blog'"
       - 'blog: true'
-    correctAnswer: "layout: 'blog'"
+      - correctAnswer: "layout: 'blog'"
   - question: In which directory do you add an error page?
     answers:
       - pages
       - layouts
       - errors
-    correctAnswer: layouts
+      - correctAnswer: layouts
   - question: You should add the `<Nuxt>` component to the error page?
     answers:
       - true
       - false
-    correctAnswer: false
+      - correctAnswer: false
   - question: You can set a custom layout for your error page
     answers:
       - true
       - false
-    correctAnswer: true
+      - correctAnswer: true
   - question: The error page is displayed when an error occurs while server side rendering?
     answers:
       - true
       - false
-    correctAnswer: false
----
+      - correctAnswer: false
 
 Layouts are a great help when you want to change the look and feel of your Nuxt.js app. Whether you want to include a sidebar or have distinct layouts for mobile and desktop.
 
