@@ -1,10 +1,3 @@
----
-title: 'The srcDir Property'
-description: Define the source directory of your Nuxt.js application
-menu: srcDir
-category: configuration-glossary
-position: 28
----
 
 - Type: `String`
 - Default: [rootDir value](/docs/2.x/configuration-glossary/configuration-rootdir)
