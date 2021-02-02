@@ -1,10 +1,3 @@
----
-title: 'The build Property'
-description: Nuxt.js lets you customize the webpack configuration for building your web application as you want.
-menu: build
-category: configuration-glossary
-position: 1
----
 
 > Nuxt.js lets you customize the webpack configuration for building your web application as you want.
 
