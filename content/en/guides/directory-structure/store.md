@@ -1,58 +1,51 @@
----
-title: store
-description: The `store` directory contains your Vuex Store files. The Vuex Store comes with Nuxt.js out of the box but is disabled by default. Creating an `index.js`  file in this directory enables the store.
-position: 13
-category: directory-structure
-csb_link: https://codesandbox.io/embed/github/nuxt-academy/guides-examples/tree/master/04_directory_structure/14_store?fontsize=14&hidenavigation=1&theme=dark
 questions:
   - question: How do you enable the store?
     answers:
       - It is enabled by default
       - create a js file in the store folder
       - 'add store: true to your nuxt.config.js file'
-    correctAnswer: create an js file in the store folder
+      - correctAnswer: create an js file in the store folder
   - question: Every .js file in the store directory is transformed to a
     answers:
       - plugin
       - module
       - function
-    correctAnswer: module
+      -  correctAnswer: module
   - question: In the store you should export the state as
     answers:
       - a function
       - an object
       - a string
-    correctAnswer: a function
+      - correctAnswer: a function
   - question: In the store you should export the mutations and actions as
     answers:
       - a function
       - an object
       - a string
-    correctAnswer: an object
+      - correctAnswer: an object
   - question: You can add plugins to the store
     answers:
       - true
       - false
-    correctAnswer: true
+      - correctAnswer: true
   - question: The fetch method is used to fill the store
     answers:
       - before rendering the page
       - while rendering the page
       - after rendering the page
-    correctAnswer: before rendering the page
+      - correctAnswer: before rendering the page
   - question: What can you use when you have some data on the server that you want to give directly to the client side?
     answers:
       - nuxtServerInit
       - fetch
       - asyncData
-    correctAnswer: nuxtServerInit
+      - correctAnswer: nuxtServerInit
   - question: In asyncData the context is given to the nuxtServerInit as the
     answers:
       - first argument
       - second argument
       - third argument
-    correctAnswer: second argument
----
+      - correctAnswer: second argument
 
 The `store` directory contains your [Vuex Store](http://vuex.vuejs.org/en/) files. The Vuex Store comes with Nuxt.js out of the box but is disabled by default. Creating an  `index.js`  file in this directory enables the store.
 
