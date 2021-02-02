@@ -1,10 +1,3 @@
----
-title: 'The dir Property'
-description: Define the custom directories for your Nuxt.js application
-menu: dir
-category: configuration-glossary
-position: 7
----
 
 - Type: `Object`
 - Default:
