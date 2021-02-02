@@ -1,10 +1,3 @@
----
-title: 'The ssr Property'
-description: Change default nuxt ssr value
-menu: ssr
-category: configuration-glossary
-position: 28.1
----
 
 - Type: `boolean`
 - Default: `true`
