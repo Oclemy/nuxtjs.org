@@ -1,10 +1,3 @@
----
-title: 'The hooks Property'
-description: Hooks are listeners to Nuxt events that are typically used in Nuxt modules, but are also available in `nuxt.config.js`.
-menu: hooks
-category: configuration-glossary
-position: 13
----
 
 - Type: `Object`
 
