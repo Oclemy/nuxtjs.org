@@ -1,9 +1,3 @@
----
-title: How to add webpack plugins?
-description: How to add webpack plugins into my Nuxt.js application?
-category: configuration
-position: 6
----
 
 In your `nuxt.config.js` file, under the `build` option, you can pass webpack `plugins`, the same way you would do it in [a `webpack.config.js` file](https://webpack.js.org/configuration/plugins/).
 
