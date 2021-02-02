@@ -1,13 +1,3 @@
----
-title: Auth Routes
-description: Authenticated routes example with Nuxt.js
-github: auth-routes
-csb_link: https://codesandbox.io/s/github/nuxt/nuxt.js/tree/dev/examples/auth-routes?fontsize=14&hidenavigation=1&theme=dark
-livedemo: https://nuxt-auth-routes.gomix.me
-liveedit: https://gomix.com/#!/project/nuxt-auth-routes
-category: development
-position: 302
----
 
 > Nuxt.js can be used to create authenticated routes easily.
 
