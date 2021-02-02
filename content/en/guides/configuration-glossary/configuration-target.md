@@ -1,10 +1,3 @@
----
-title: 'The target Property'
-description: Change default nuxt target
-menu: target
-category: configuration-glossary
-position: 29
----
 
 Deployment targets for Nuxt >= v2.13:
 
