@@ -1,10 +1,3 @@
----
-title: 'telemetry Property'
-description: 'Nuxt.js collects anonymous telemetry data about general usage. This helps us to accurately gauge Nuxt feature usage and customization across all our users.'
-menu: telemetry
-category: configuration-glossary
-position: 30
----
 
 ## The telemetry Property
 
