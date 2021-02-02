@@ -1,9 +1,3 @@
----
-title: How to use external resources?
-description: How to use external resources with Nuxt.js?
-category: configuration
-position: 1
----
 
 ## Global Settings
 
