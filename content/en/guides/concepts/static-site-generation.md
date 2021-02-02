@@ -1,38 +1,33 @@
----
-title: Static Site Generation
-description: With static site generation you can render your application during the build phase and deploy it to any static hosting services such as Netlify, GitHub pages, Vercel etc.
-position: 4
-category: concepts
 questions:
   - question: You need a server to host your static site
     answers:
       - True
       - False
-    correctAnswer: False
+      - correctAnswer: False
   - question: What command do you use to generate your static site?
     answers:
       - nuxt build
       - nuxt prerender
       - nuxt generate
-    correctAnswer: nuxt generate
+      - correctAnswer: nuxt generate
   - question: When is your API called?
     answers:
       - Every time you navigate to the page with the API content
       - When you generate your site
       - When you generate your site and every time you navigate to the page with the API content
-    correctAnswer: When you generate your site
+      - correctAnswer: When you generate your site
   - question: Which pages will fallback into single page application mode?
     answers:
       - The error page
       - Those that are excluded from generation with generate.excludes
       - All pages on navigation
-    correctAnswer: Those that are excluded from generation with generate.excludes
+      - correctAnswer: Those that are excluded from generation with generate.excludes
   - question: How do you update the content to your site?
     answers:
       - It is updated automatically
       - You need to regenerate your site
-    correctAnswer: You need to regenerate your site
----
+      - correctAnswer: You need to regenerate your site
+
 
 With static site generation you can render your application during the build phase and deploy it to any static hosting services such as Netlify, GitHub pages, Vercel etc. This means that no server is needed in order to deploy your application.
 
