@@ -1,11 +1,3 @@
----
-title: 'The loading indicator Property'
-description: Show fancy loading indicator while page is loading!
-menu: loadingIndicator
-category: configuration-glossary
-position: 16
----
-
 > Show fancy loading indicator while page is loading!
 
 Without Server Side Rendering (when `ssr` option is `false`), there is no content from the server side on the first page load. So, instead of showing a blank page while the page loads, we may show a spinner.
