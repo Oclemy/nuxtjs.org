@@ -1,11 +1,3 @@
----
-title: 'The Fetch Hook'
-description: The `fetch` hook is for fetching data asynchronously. It is called on server-side when rendering the route, and on client-side when navigating.
-menu: Fetch Hook
-category: components-glossary
-position: 0
----
-
 ## Nuxt >= 2.12
 
 Nuxt.js `v2.12` introduces a new hook called `fetch` which you can use **in any of your Vue components**. Use fetch every time you need to get **asynchronous** data. `fetch` is called on server-side when rendering the route, and on client-side when navigating.
