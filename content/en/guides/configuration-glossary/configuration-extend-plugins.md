@@ -1,10 +1,4 @@
----
-title: 'The extendPlugins Property'
-description: The extendPlugins property lets you customize Nuxt.js plugins.
-menu: extendPlugins
-category: configuration-glossary
-position: 9
----
+
 
 > The extendPlugins property lets you customize Nuxt.js plugins ([options.plugins](/docs/2.x/configuration-glossary/configuration-plugins)).
 
